@@ -1,0 +1,40 @@
+
+.App{
+  height: 100vh;
+  width: 100%;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  text-align: center;
+  font-size: 2rem;
+}
+
+ul{
+  margin: 10px 0;
+}
+
+li{
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+button{
+  flex-grow: 1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  outline: none;
+  border: none;
+}
+
+.Selected{
+  background-color: black;
+  color: white;
+}
