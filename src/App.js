@@ -3,7 +3,6 @@ import List from './List'
 import { useEffect,useState } from 'react';
 
 function App() {
-
   const API_URL = "https://jsonplaceholder.typicode.com/"
 
   const [reqType, setreqType]= useState('users')
